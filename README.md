@@ -1,6 +1,10 @@
 # 3D Academic Literature Semantic Network 🌐✨
 
-An interactive 3D web platform that maps complex relationships among academic fields, research methodologies, prominent scientists, and publications. By combining Natural Language Processing (NLP) with dynamic 3D force-directed graphing, this project converts unstructured data into an immersive knowledge discovery environment. This system is specifically tailored to assist researchers, students, and academics in rapidly identifying cross-disciplinary trends and uncovering hidden patterns in vast repositories of scholarly articles. Traditional literature reviews often suffer from information overload, making it difficult to spot how different authors or methodologies intersect. By moving beyond flat, two-dimensional lists and embracing a spatial representation, users can intuitively grasp complex academic topologies, ultimately accelerating the pace of scientific discovery and fostering innovative collaborations across various domains.
+An interactive 3D web platform that maps complex relationships among academic fields, research methodologies, prominent scientists, and publications. By combining Natural Language Processing (NLP) with dynamic 3D force-directed graphing, this project converts unstructured data into an immersive knowledge discovery environment. 
+
+This system is specifically tailored to assist researchers, students, and academics in rapidly identifying cross-disciplinary trends and uncovering hidden patterns in vast repositories of scholarly articles. 
+
+Traditional literature reviews often suffer from information overload, making it difficult to spot how different authors or methodologies intersect. By moving beyond flat, two-dimensional lists and embracing a spatial representation, users can intuitively grasp complex academic topologies, ultimately accelerating the pace of scientific discovery and fostering innovative collaborations across various domains.
 
 ![Network Visualization](result_graph.png)
 
@@ -52,7 +56,11 @@ This systematic approach guarantees that every node and edge in the visualizatio
 
 ## 🌍 Real-World Comparison: Nepal vs. Global Context
 
-To understand the impact of such semantic networks, we can compare its application in Nepal to a global context. In Nepal, universities like Tribhuvan University or Kathmandu University could utilize this tool to map localized research on Himalayan ecology, earthquake engineering, or regional agriculture. This localized mapping helps in identifying isolated research silos and encouraging domestic collaboration where resources might be otherwise constrained. Conversely, outside Nepal, massive global institutions like MIT, Oxford, or international research bodies can deploy this framework on a worldwide scale to track millions of publications. This broad global application accelerates the development of cutting-edge technologies, like quantum computing or global climate modeling, by seamlessly linking international scholars. Consequently, it uncovers hidden academic synergies and effectively manages sprawling, multidisciplinary datasets across borders.
+To understand the impact of such semantic networks, we can compare its application in Nepal to a global context. 
+
+In Nepal, universities like Tribhuvan University or Kathmandu University could utilize this tool to map localized research on Himalayan ecology, earthquake engineering, or regional agriculture. This localized mapping helps in identifying isolated research silos and encouraging domestic collaboration where resources might be otherwise constrained. 
+
+Conversely, outside Nepal, massive global institutions like MIT, Oxford, or international research bodies can deploy this framework on a worldwide scale to track millions of publications. This broad global application accelerates the development of cutting-edge technologies, like quantum computing or global climate modeling, by seamlessly linking international scholars. Consequently, it uncovers hidden academic synergies and effectively manages sprawling, multidisciplinary datasets across borders.
 
 ---
 
