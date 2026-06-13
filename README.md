@@ -32,7 +32,19 @@ This decoupled architecture ensures high maintainability and scalability. The ba
 
 Our methodology centers around a pipeline that transforms raw unstructured academic text into a structured network topology. The process begins with data ingestion, followed by tokenization and entity extraction using advanced NLP techniques. We categorize extracted terms into distinct ontologies: authors, domains, methods, and papers. These entities are then linked based on co-occurrence and semantic similarity scores, producing a weighted graph layout.
 
-![Methodology Diagram](result_graph.png)
+```mermaid
+graph TD
+    A[Raw Unstructured Academic Text] --> B[Data Ingestion]
+    B --> C[Tokenization]
+    C --> D[Entity Extraction via NLP]
+    D --> E[Categorize Ontologies]
+    E --> F[Authors]
+    E --> G[Domains]
+    E --> H[Methods]
+    E --> I[Papers]
+    F & G & H & I --> J[Semantic Similarity & Co-occurrence]
+    J --> K[Weighted Graph Layout]
+```
 
 This systematic approach guarantees that every node and edge in the visualization represents a verified relationship, enabling accurate tracking of research lineage and methodological evolution across various studies. By iteratively refining the entity recognition models, the methodology minimizes false positives and ensures a clean, reliable dataset for the final visualization engine.
 
@@ -40,7 +52,7 @@ This systematic approach guarantees that every node and edge in the visualizatio
 
 ## 🌍 Real-World Comparison: Nepal vs. Global Context
 
-To understand the impact of such semantic networks, we can compare its application in Nepal to a global context. In Nepal, universities like Tribhuvan University or Kathmandu University could utilize this tool to map localized research on Himalayan ecology, earthquake engineering, or regional agriculture, identifying isolated research silos and encouraging domestic collaboration where resources might be otherwise constrained. Conversely, outside Nepal, massive global institutions like MIT, Oxford, or international research bodies can deploy this framework on a worldwide scale to track millions of publications. This global application accelerates the development of cutting-edge technologies like quantum computing or global climate modeling by seamlessly linking international scholars, uncovering hidden academic synergies, and managing sprawling, multidisciplinary datasets across borders.
+To understand the impact of such semantic networks, we can compare its application in Nepal to a global context. In Nepal, universities like Tribhuvan University or Kathmandu University could utilize this tool to map localized research on Himalayan ecology, earthquake engineering, or regional agriculture. This localized mapping helps in identifying isolated research silos and encouraging domestic collaboration where resources might be otherwise constrained. Conversely, outside Nepal, massive global institutions like MIT, Oxford, or international research bodies can deploy this framework on a worldwide scale to track millions of publications. This broad global application accelerates the development of cutting-edge technologies, like quantum computing or global climate modeling, by seamlessly linking international scholars. Consequently, it uncovers hidden academic synergies and effectively manages sprawling, multidisciplinary datasets across borders.
 
 ---
 
